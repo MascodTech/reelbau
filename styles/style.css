@@ -75,11 +75,13 @@ p {
 .header-trucking {
     width: 100%;
     z-index: 9999;
+    transition: 0.3s;
 }
 
 .sticky-header {
     position: fixed;
     top: 0;
+    box-shadow: 0 0 10px black;
 }
 
 .header-trucking .navbar {
